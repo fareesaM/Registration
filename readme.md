@@ -30,3 +30,6 @@ To run this project, you need a web browser and a code editor like Visual Studio
    ```bash
    git clone https://github.com/edSquads/Registration.git
    cd Registration
+
+   #published site
+https://edsquads.github.io/Registration/

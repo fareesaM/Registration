@@ -11,6 +11,82 @@
 <body>
     <header>
         <!-- navbar -->
+        <nav aria-label="Main Navigation">
+            <div class="logo">Registration</div>
+            <ul class="nav-links">
+                <li><a href="#reg_body">Form</a></li>
+                <li><a href="#dataTable">Table</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- form -->
+    <div id="reg_body">
+        <div>
+            <img src="./todo.png" alt="A to-do list illustration for registration">
+            <h2>Add Your Details and Press Submit</h2>
+        </div>
+        <div>
+            <h1>Student Registration</h1>
+            <form id="form">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <p>Select Class</p>
+                <input id="number" name="class" type="number" min="1" max="12" step="1"><br><br>
+                <p>Contact Details</p>
+                <textarea id="contact" name="contact" cols="30" rows="5"></textarea><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address"><br><br>
+                <button type="submit" id="addButton">Submit</button>
+                <button type="reset" id="resetButton">Reset</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- table -->
+    <div class="table-container">
+        <h2>Student Records</h2>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Class</th>
+                    <th>Contact</th>
+                    <th>Address</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be dynamically inserted here -->
+            </tbody>
+        </table>
+        <button id="resetTableButton">Reset Table</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- navbar -->
         <nav>
             <div class="logo">Registration</div>
             <ul class="nav-links">
@@ -76,3 +152,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+ -->

@@ -1,4 +1,5 @@
-site🌐 : https://fareesam.github.io/Registration/
+## Published site🌐 
+https://fareesam.github.io/Registration/
 # Student Registration Form 📋
 
 This repository hosts the code for a visually appealing and user-friendly student registration form. The form is designed to capture student data, including their first name, last name, class, contact details, and address, with an engaging interface and seamless functionality.
